@@ -6,6 +6,8 @@ This repository provides examples for building a simple multilayer perceptron (M
 
 - `mlp_regression.ipynb` – step-by-step notebook that loads data, trains a small MLP, and visualizes the results.
 - `mlp_regression.py` – equivalent Python script you can execute from the command line.
+- `mnist_mlp.py` – trains a simple MLP on the MNIST digits dataset and searches
+  for good hyperparameters using Optuna.
 
 ## Running
 
@@ -16,6 +18,8 @@ pip install torch matplotlib scikit-learn pandas
 
 # run as script
 python mlp_regression.py
+# train MNIST model and search hyperparameters
+python mnist_mlp.py
 ```
 
 [Open the notebook in Colab](https://colab.research.google.com/github/your-user/your-repo/blob/main/mlp_regression.ipynb)
