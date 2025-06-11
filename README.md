@@ -6,6 +6,7 @@ This repository provides examples for building a simple multilayer perceptron (M
 
 - `mlp_regression.ipynb` – step-by-step notebook that loads data, trains a small MLP, and visualizes the results.
 - `mlp_regression.py` – equivalent Python script you can execute from the command line.
+- `mlp_classification_exercises.ipynb` – solutions for several classification problems using an MLP.
 
 ## Running
 
